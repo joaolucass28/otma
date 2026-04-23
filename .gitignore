@@ -1,0 +1,14 @@
+.DS_Store
+.tmp*
+*.log
+node_modules/
+__pycache__/
+*.pyc
+
+# Installed skill packages (treat like node_modules)
+tools/skills/claude-mem/
+tools/skills/aiox-core/
+tools/skills/ui-ux-pro-max-skill/
+tools/skills/get-shit-done/
+tools/skills/superpowers/
+tools/skills/obsidian-skills/
