@@ -12,6 +12,7 @@
 | Weekly Sync Prep | Cloud routine | Mondays 7:30am | `operations/syncs/YYYY-MM-DD-sync.md` |
 | Skill Crystallizer | Local stop hook | After any session touching `clients/otma/` | `tools/skills/auto-[DATE]/SKILL.md` |
 | Brand Monitoring | Cloud routine | Fridays 8am | `research/market/YYYY-MM-DD-market-pulse.md` |
+| Client Folder Architect | On-demand | On client onboarding or audit request | `clients/[slug]/` folder scaffold + `clients/README.md` |
 
 ---
 
@@ -20,6 +21,7 @@
 - `content-engine.md` — Content Authority Engine (weekday LinkedIn post generation)
 - `sync-prep.md` — Weekly Sync Prep (Monday partner meeting pre-fill)
 - `brand-monitor.md` — Brand Monitoring (Friday competitive intelligence)
+- `client-folder-architect.md` — Client Folder Architect (on-demand folder scaffold, audit, and cross-repo linking)
 
 Skill Crystallizer runs via `.claude/settings.json` Stop hook — no prompt file needed.
 
